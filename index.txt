@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>JS Arrays</title>
+    </head>
+    <body>
+        <p>
+            Declarando o Array:
+            <h4 id="declaraArray"></h4>
+        </p>
+        <hr>
+        <p>
+            Buscando o primeiro elemento do Array:
+            <h4 id="primeiro"></h4>
+        </p>
+        <hr>
+        <p>
+            Buscando o segundo elemento do Array:
+            <h4 id="segundo"></h4>
+        </p>
+        <hr>
+        <p>
+            Buscando o terceiro elemento do Array:
+            <h4 id="terceiro"></h4>
+        </p>
+        <hr>
+        <p>
+            Comprimento do Array:
+            <h4 id="comprimento"></h4>
+        </p>
+        <hr>
+        <p>
+            Utilizando o loop através do Array:
+            <h4 id="loopArray"></h4>
+        </p>
+        <hr>
+        <p>
+            Adicionando um elemento no final do Array:
+            <h4 id="addElemento"></h4>
+        </p>
+        <hr>
+        <p>
+            Adicionando mais elementos no final do Array:
+            <h4 id="addMaisElementos"></h4>
+        </p>
+        <hr>
+        <p>
+            Declarando o Array com letras do alfabeto:
+            <h4 id="declaraLetras"></h4>
+        </p>
+        <hr>
+        <p>
+            Organizando o Array com letras:
+            <h4 id="organizaLetras"></h4>
+        </p>
+        <hr>
+        <p>
+            Revertendo o Array com letras:
+            <h4 id="reverteLetras"></h4>
+        </p>
+        <hr>
+        <p>
+            Declarando um Array de números:
+            <h4 id="declaraNumeros"></h4>
+        </p>
+        <hr>
+        <p>
+            Encontando o maior número do Array:
+            <h4 id="maxNumero"></h4>
+        </p>
+        <hr>
+        <p>
+            Encontando o menor número do Array:
+            <h4 id="minNumero"></h4>
+        </p>
+        <hr>
+        <p>
+            Adicionando elementos no início do Array:
+            <h4 id="addInicio"></h4>
+        </p>
+        <hr>
+        <p>
+            Adicionando vários elementos no início do Array:
+            <h4 id="addVariosInicio"></h4>
+        </p>
+        <hr>
+        <p>
+            Removendo elemento do início do Array:
+            <h4 id="remInicio"></h4>
+        </p>
+        <hr>
+        <p>
+            Removendo elemento do final do Array:
+            <h4 id="remFinal"></h4>
+        </p>
+        <hr>
+        <p>
+            Unindo dois arrays:
+            <h4 id="juntaArray"></h4>
+        </p>
+
+        <script>
+            // Declarando o Array:
+            const declaraArray = document.getElementById("declaraArray");
+            // Buscando o primeiro elemento do Array
+            const primeiro = document.getElementById("primeiro");
+            // Buscando o segundo elemento do Array
+            const segundo = document.getElementById("segundo");
+            // Buscando o terceiro elemento do Array:
+            const terceiro = document.getElementById("terceiro");
+            // Comprimento do Array
+            const comprimento = document.getElementById("comprimento");
+            // Utilizando o loop através do Array
+            const loopArray = document.getElementById("loopArray");
+            // Adicionando um elemento no final do Array
+            const addElemento = document.getElementById("addElemento");
+            // Adicionando mais elementos no final do Array
+            const addMaisElementos = document.getElementById("addMaisElementos");
+            // Declarando o Array com letras do alfabeto
+            const declaraLetras = document.getElementById("declaraLetras");
+            // Organizando o Array com letras
+            const organizaLetras = document.getElementById("organizaLetras");
+            // Revertendo o Array com letras
+            const reverteLetras = document.getElementById("reverteLetras");
+            // Declarando um Array de números
+            const declaraNumeros = document.getElementById("declaraNumeros");
+            // Encontando o maior número do Array
+            const maxNumero = document.getElementById("maxNumero");
+            // Encontando o menor número do Array
+            const minNumero = document.getElementById("minNumero");
+            // Atividades Extras
+            // Adicionando elementos no início do Array
+            const addInicio = document.getElementById("addInicio");
+            // Adicionando vários elementos no início do Array
+            const addVariosInicio = document.getElementById("addVariosInicio");
+            // Removendo elemento do início do Array
+            const remInicio = document.getElementById("remInicio");
+            // Removendo elemento do final do Array
+            const remFinal = document.getElementById("remFinal");
+            // Unindo dois arrays
+            const juntaArray = document.getElementById("juntaArray");
+        </script>
+    </body>
+</html>
